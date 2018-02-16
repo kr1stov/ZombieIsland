@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: aa9e0b8dd5630744d90f7fe0f3ee8fad
+timeCreated: 1518690300
+licenseType: Pro
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Foul Fiend
+  fontNames:
+  - Foul Fiend
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
