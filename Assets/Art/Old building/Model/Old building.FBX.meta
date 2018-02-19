@@ -8,24 +8,33 @@ ModelImporter:
     100000: Box001
     100002: Object075
     100004: //RootNode
+    100006: Door
     400000: Box001
     400002: Object075
     400004: //RootNode
+    400006: Door
     2300000: Box001
     2300002: Object075
+    2300004: //RootNode
+    2300006: Door
     3300000: Box001
     3300002: Object075
+    3300004: //RootNode
+    3300006: Door
     4300000: Box001
     4300002: Object075
+    4300004: Door
     6400000: Box001
     6400002: Object075
+    6400004: //RootNode
+    6400006: Door
     9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: 'Material #162'
-    second: {fileID: 2100000, guid: 692a7b039d805a649a06d7e480a3078c, type: 2}
+    second: {fileID: 2100000, guid: 792575e277c2cce4092cdde14f3fb41d, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -55,7 +64,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.06
+    globalScale: 1
     meshCompression: 3
     addColliders: 1
     importVisibility: 0

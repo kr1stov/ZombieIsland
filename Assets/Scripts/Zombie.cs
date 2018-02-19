@@ -14,18 +14,13 @@ public class Zombie : GameEntity {
 
     // Use this for initialization
 	void OnEnable () {
-        GameManager.Instance.RegisterGameEntity(this);
+        GameEntityManager.Instance.RegisterGameEntity(this);
         PickRandomDestination();
 	}
 
-    private void OnDisable()
-    {
-        GameManager.Instance.UnregisterGameEntity(this);
-    }
-
     private void OnDestroy()
     {
-        GameManager.Instance.UnregisterGameEntity(this);
+        GameEntityManager.Instance.UnregisterGameEntity(this);
     }
 
     public override void UpdateSelf()
