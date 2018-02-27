@@ -5,13 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class InteractableEntity : MonoBehaviour {
 
-    private void OnTriggerEnter(Collider other)
-    {
-        
-    }
+    public string InteractionText;
 
-    private void OnTriggerExit(Collider other)
-    {
-        
-    }
+
 }
